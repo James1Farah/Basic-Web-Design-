@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+color: yellow;
+}
+
+#container {
+background-color: white;
+width: 1200px;
+margin: 20px auto;
+border: 2px solid yellow;
+padding: 20px;
+}
+
+img{
+display: block;
+margin: 0 auto;
+width: 500px;
+}
+
+
+nav{
+text-align: center;
+margin: 20px;
+
+}
+
+nav a {
+font-size: larger;
+color: yellow;
+}
+
+h1,h2,h3, footer {text-align: center;}
+
