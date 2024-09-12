@@ -11,8 +11,8 @@ border: 2px solid yellow;
 padding: 20px;
 }
 
-#container2 {
-    background-color: gray;
+#container2 { display: flex;
+   
 }
 
 .heading_style {
@@ -24,10 +24,11 @@ text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.647);
 width: 40%;
 }
 
+ 
 
 
 
-img{
+img {
 display: block;
 margin: 0 auto;
 width: 100%
@@ -68,9 +69,7 @@ color: rgb(0, 0, 0);
 }
 
 
-main1 {
-    display: flex;
-}
+
 
 
 
