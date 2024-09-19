@@ -6,4 +6,6 @@
 
 <li><a href="Advance CSS/index.html" target="_blank">Advanced CSS</a></li>
 
+<li><a href="Responsive/about.html" target="_blank">Responsive</a></li>
+
 </ul>
