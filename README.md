@@ -8,4 +8,6 @@
 
 <li><a href="Responsive/about.html" target="_blank">Responsive</a></li>
 
+<li><a href="Final Project/index.html" target="_blank">Final</a></li>
+
 </ul>
