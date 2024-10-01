@@ -1,9 +1,17 @@
 /* Global Styles */
 
 body {
-    background-color: rgb(85, 84, 84);
+    
+    background-color: gray;
     color: yellow;
     
+
+    
+}
+
+iframe {
+    width: 550px;
+    height: 350px;
 }
 
 img{
@@ -23,32 +31,38 @@ img{
 /* Mobile Styles */
 
 @media (min-width: 320px) {
-nav{
+nav, #Buttons{
+    
     background-color: rgb(85, 84, 84);
     padding: 5px ;
     margin-top: 10px;
     text-align: center;
 }
-nav ul {
+nav ul, #Buttons {
 list-style-type: none; 
  padding: 0;
 }
 
-nav li{
+nav li, #Buttons li{
     display: block;
+    
 }
 
-nav li a{
+nav li a, #Buttons li a{
     display: block;
     height: 40px;
     line-height: 40px;
     background-color: rgb(0, 0, 0);
-    color: yellow;
+    color: rgb(79, 78, 78);
+    text-shadow: 4px 4px 4px rgb(186, 32, 32);
     font-size: 24px;
     text-decoration: none;
     margin-top: 5px;
+    font-family: "Workbench", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
-nav li a:hover {
+nav li a:hover #Buttons:hover {
     background-color: rgb(85, 84, 84);
 }
 
@@ -59,12 +73,34 @@ main {
 h1, h2, h3 {
     text-align: center;
     color: yellow;
-    text-shadow: 4px 4px 4px rgb(85, 84, 84);
+    text-shadow: 4px 4px 4px rgb(59, 59, 59);
+    font-family: "Press Start 2P", system-ui;
+    font-size: medium;
+    
+}
+      
+      }
+      
+#mcol {
+display: flex;
+
 }
 
-footer {
+.headtext {
     text-align: center;
-    padding: 40px;
+}
+      
+.col {
+    margin: 20px;
+    padding: 20px;
+    border: 2px yellow;
+}
+
+
+
+footer {
+   text-align: center;
+   padding: 20px;
 }
 .Foot_Img {
     display: inline ;
@@ -73,7 +109,7 @@ footer {
 
 }
 
-}
+
 
 a {
     display: block;
@@ -108,6 +144,7 @@ a:hover {
     }
 }
 
+/* PC Styles */
 @media (min-width: 1024px) {
 #container {
     width: 65%;
@@ -117,7 +154,6 @@ a:hover {
  nav {
     margin: 0;
  }
-
 
 }
 
